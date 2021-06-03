@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 tools:context=".MainActivity">
+
+
+                 <ImageView
+                     android:id="@+id/domino_image_view"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:contentDescription="@string/domino_place"
+                     android:scaleType="centerCrop"
+                     android:src="@drawable/dominopalace" />
+
+
+                 <ImageView
+                     android:id="@+id/dominologo_image_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/domino_text_view"
+                    android:layout_alignParentEnd="true"
+                     android:contentDescription="@string/domino_place"
+                     android:scaleType="centerCrop"
+                     android:src="@drawable/dominologo" />
+
+
+                 <TextView
+                     android:id="@+id/domino_text_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/domino_image_view"
+                     android:layout_alignParentEnd="true"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginEnd="8dp"
+                     android:fontFamily="cursive"
+                     android:textColor="#2979ff"
+                     android:textSize="36sp"
+                     android:textStyle="bold"
+                     android:text="@string/domino_pizza"/>
+
+                 <TextView
+                     style="@style/BigText"
+                     android:id="@+id/about_text_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/domino_image_view"
+                     android:background="@drawable/rounded_corner_view"
+                     android:text="@string/about_us" />
+
+
+                 <TextView
+                     style="@style/AboutText"
+                     android:id="@+id/message_text_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/about_text_view"
+                     android:layout_toStartOf="@id/dominologo_image_view"
+                     android:text="@string/there_are_few_pleasures_that_can_compare_to_walking_into_your_favorite_restaurant_ordering_your_choice_pizza_and_drink_and_savoring_the_goodies_right_there_in_a_warm_and_relaxing_environment_these_are_what_domino_s_pizza_offer_you_and_yours_and_why_they_are_a_favorite_in_lagos" />
+
+                 <ImageView
+                     android:id="@+id/location_image_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/message_text_view"
+                     android:contentDescription="@string/location"
+                     android:paddingStart="20dp"
+                     android:paddingEnd="8dp"
+                     android:scaleType="centerCrop"
+                     android:src="@drawable/ic_baseline_location_on_24" />
+
+                 <TextView
+                     style="@style/NoteText"
+                     android:id="@+id/location_text_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/message_text_view"
+                     android:layout_toEndOf="@id/location_image_view"
+                     android:text="@string/_1a_idowu_olaitan_st_gbagada_lagos" />
+
+                 <TextView
+                     style="@style/BigText"
+                     android:id="@+id/contact_text_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/location_image_view"
+                     android:background="@drawable/rounded_corner_view"
+                     android:text="@string/contact_us" />
+
+                 <ImageView
+                     android:id="@+id/phone_image_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/contact_text_view"
+                     android:contentDescription="@string/phone"
+                     android:paddingStart="20dp"
+                     android:paddingTop="16dp"
+                     android:paddingEnd="8dp"
+                     android:paddingBottom="16dp"
+                     android:scaleType="centerCrop"
+                     android:src="@drawable/ic_baseline_phone_24" />
+
+                 <TextView
+                     style="@style/NoteText"
+                     android:id="@+id/phone_text_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/contact_text_view"
+                     android:layout_marginTop="16dp"
+                     android:layout_toEndOf="@id/phone_image_view"
+                     android:text="@string/_08170700066_09037775855" />
+
+
+                 <ImageView
+                     android:id="@+id/email_image_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/phone_image_view"
+                     android:contentDescription="@string/email"
+                     android:paddingStart="20dp"
+                     android:paddingEnd="8dp"
+                     android:scaleType="centerCrop"
+                     android:src="@drawable/ic_baseline_email_24" />
+
+                 <TextView
+                     style="@style/NoteText"
+                     android:id="@+id/email_text_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/phone_image_view"
+                     android:layout_toEndOf="@id/email_image_view"
+                     android:text="@string/info_dominos_org" />
+
+
+
+             </RelativeLayout>
+
+         </LinearLayout>
+
+</ScrollView>
+
+

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Domino Pizza</string>
+    <string name="info_dominos_org">info@dominos.org</string>
+    <string name="icon">icon</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="there_are_a_few_pleasures_that_can_compare_to_walking_into_your_favourite_restaurant_ordering_your_choice_pizza_and_drink_and_savouring_the_goodies_right_there_in_a_warm_and_relaxing_environment_these_are_what_domino_s_pizza_offer_you_and_why_they_are_a_favourite_in_lagos">There are a few pleasures that can compare to walking into your favourite restaurant ordering your choice pizza and drink and savouring the goodies right there in a warm and relaxing environment. These are what Domino\'s Pizza offer you and why they are a favourite in Lagos,</string>
+    <string name="domino_place">Domino Place</string>
+    <string name="about_us">About Us</string>
+    <string name="message">icon</string>
+    <string name="_1a_idowu_olaitan_st_gbagada_lagos">1A Idowu Olaitan St, Gbagada, Lagos</string>
+    <string name="_08170700066_09037775855">08170700066, 09037775855</string>
+    <string name="email" />
+    <string name="phone" />
+    <string name="location" />
+    <string name="logo" />
+    <string name="domino_pizza">Domino pizza</string>
+    <string name="pizza" />
+    <string name="there_are_few_pleasures_that_can_compare_to_walking_into_your_favorite_restaurant_ordering_your_choice_pizza_and_drink_and_savoring_the_goodies_right_there_in_a_warm_and_relaxing_environment_these_are_what_domino_s_pizza_offer_you_and_yours_and_why_they_are_a_favorite_in_lagos">There are few pleasures that can compare to walking into your favorite restaurant, ordering your choice pizza and drink, and savoring the goodies right there in a warm and relaxing environment. These are what Domino\'s Pizza offer you and yours, and why they are a favorite in Lagos.</string>
+</resources>
